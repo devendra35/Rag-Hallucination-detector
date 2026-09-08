@@ -1,4 +1,4 @@
-# 🧠 RAG Hallucination Detector
+#  RAG Hallucination Detector
 
 An interactive machine learning application that detects whether an AI-generated response is likely to contain a hallucination based on key RAG and response-generation features.
 
@@ -25,21 +25,21 @@ The application analyzes six input features related to LLM generation and retrie
 
 The Streamlit application loads the trained model and feature configuration from serialized `.pkl` files.
 
-## ✨ Features
+##  Features
 
-* 🧠 Machine learning-based hallucination detection
-* 🌡️ Temperature setting analysis
-* 🔎 Vector database similarity analysis
-* 📝 Prompt token analysis
-* 💬 Response token analysis
-* 📚 Sentence complexity analysis
-* 🎭 Subjectivity analysis
-* 📊 Hallucination probability
-* 🎯 Prediction confidence
-* 📈 Probability visualization
-* 🖥️ Interactive Streamlit interface
+*  Machine learning-based hallucination detection
+*  Temperature setting analysis
+*  Vector database similarity analysis
+*  Prompt token analysis
+*  Response token analysis
+* Sentence complexity analysis
+*  Subjectivity analysis
+*  Hallucination probability
+* Prediction confidence
+*  Probability visualization
+*  Interactive Streamlit interface
 
-## 🤖 Machine Learning Model
+##  Machine Learning Model
 
 The deployed application uses:
 
@@ -63,7 +63,7 @@ The application reports the following test metrics:
 
 These metrics are displayed directly by the deployed application's model-information section.
 
-## 📊 Input Features
+##  Input Features
 
 The model uses six features:
 
@@ -76,7 +76,7 @@ The model uses six features:
 
 These are the six features passed to the trained model by the Streamlit application.
 
-## 🔄 How It Works
+##  How It Works
 
 ```text
                  User Input
@@ -159,7 +159,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-## ▶️ Run Locally
+##  Run Locally
 
 Start the Streamlit application:
 
@@ -169,7 +169,7 @@ streamlit run app.py
 
 The application will open in your browser.
 
-## 🔍 Using the Application
+##  Using the Application
 
 1. Open the application.
 2. Adjust the six input features using the interactive controls.
@@ -180,13 +180,13 @@ The application will open in your browser.
 
 The current interface implements these controls and prediction outputs directly in `app.py`.
 
-## 📚 Dataset
+##  Dataset
 
 The project was developed using the **LLM RAG Hallucination and Faithfulness Benchmark** dataset.
 
 The dataset contains synthetic RAG interactions with text, metadata, engineered features, and hallucination-related targets.
 
-## 🎯 Project Objective
+##  Project Objective
 
 The primary objective is to demonstrate how machine learning can be applied to identify potential hallucinations in RAG-based LLM responses using structured features.
 
@@ -204,16 +204,7 @@ Machine Learning
 Streamlit
 ```
 
-## 📈 Future Improvements
 
-* Add text-based analysis of the prompt, context, and response.
-* Experiment with additional machine learning algorithms.
-* Add explainable AI techniques such as SHAP.
-* Improve hallucination-type classification.
-* Add context-faithfulness prediction.
-* Add automated model monitoring.
-* Improve the Streamlit dashboard.
-* Evaluate the model on real-world RAG responses.
 
 ## 👨‍💻 Author
 
